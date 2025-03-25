@@ -40,5 +40,4 @@ body::before {
   width: 100vw;
   height: 100vh;
   background: url("https://ninja2137.github.io/GalaxyVencordTheme/background.jpeg") no-repeat center cover;
-  z-index: -1;
 }
