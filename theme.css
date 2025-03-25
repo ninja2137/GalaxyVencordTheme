@@ -1,5 +1,37 @@
-
 /* Galaxy Theme for Vencord */
+:root {
+  /* Text Colors */
+  --header-primary: #6e44e5;
+  --header-secondary: #6e44e5;
+  --text-normal: #d6d6d6;
+  --text-muted: #10717c;
+  --interactive-normal: #158491;
+  --interactive-hover: #c5c118;
+  --interactive-active: #6e44e5;
+  --interactive-muted: #3a3a3a;
+  --text-link: #396165;
+  
+  /* Background Colors */
+  --background-primary: #04040e;
+  --background-secondary: #171717;
+  --background-secondary-alt: #04040e;
+  --background-tertiary: #04040e;
+  --background-accent: #08393f;
+  --background-floating: #04040e;
+  --background-mobile-primary: #04040e;
+  --background-mobile-secondary: #04040e;
+  --background-message-hover: #171717;
+  --background-modifier-hover: #171717;
+  --background-modifier-active: #464646;
+  --background-modifier-selected: #1f1a23;
+  --background-modifier-accent: #396165;
+  --keyboard: #04040e;
+  
+  /* Raw Colors */
+  --primary-800: #04040e;
+  --primary-600: #04040e;
+}
+
 body::before {
   content: "";
   position: fixed;
@@ -7,6 +39,6 @@ body::before {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: url("https://twoja-nazwa.github.io/discord-theme-galaxy/background.jpeg") no-repeat center center/cover;
+  background: url("https://ninja2137.github.io/GalaxyVencordTheme/background.jpeg") no-repeat center center/cover;
   z-index: -1;
 }
